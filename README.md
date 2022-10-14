@@ -10,7 +10,7 @@
 
 Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community!
 
-### Here's how?
+## Here's how?
 
 Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Topmate profile here](https://topmate.io/) if you don't have one already!**
 
@@ -19,7 +19,7 @@ Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Top
 ```
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
-### 🎨 Style your badge 
+## 🎨 Style your badge 
 
 Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below. :point_down:
 
@@ -27,7 +27,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)
 ```
 
-#### Available styles
+### Available styles
 
 | Type  | Badge  |
 |:---|:---|
@@ -37,7 +37,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 | `social`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=social)  |
 | `for-the-badge`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)  |
 
-### Local Setup
+## Local Setup
 
 ```bash
 npm i
@@ -46,9 +46,9 @@ npm start
 
 Run the above command and visit `http://localhost:3000/`
 
-### API Documentation
+## API Documentation
   
-### Under the hood
+## Under the hood
   
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
   
@@ -66,9 +66,12 @@ topmate
 > Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format.
 
 
-### Author
-  
-Vinit Shahdeo | MIT License
+## Support
+
+Glad to see you here! Did you love it? Consider giving a :star: and share it with your friends! You can also find me on [Twitter](https://twitter.com/Vinit_Shahdeo).
+
+
+<a href="https://www.buymeacoffee.com/vinitshahdeo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 20% !important;width: 20% !important;" ></a>
 
 
 
