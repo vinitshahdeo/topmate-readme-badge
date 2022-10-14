@@ -109,6 +109,8 @@ npm run start
 
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
 
+Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.**
+
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
