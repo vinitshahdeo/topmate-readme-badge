@@ -30,9 +30,9 @@ Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Top
 ```
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
-## 🎨 Style your badge 
+## Style your badge 💅
 
-Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below. :point_down:
+Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ↓
 
 ```markdown
 ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)
@@ -83,7 +83,7 @@ topmate
 
 ## Support
 
-Glad to see you here! Did you love it? Consider giving a :star: and share it with your friends! You can also find me on [Twitter](https://twitter.com/Vinit_Shahdeo).
+Glad to see you here! Did you love it? Consider giving a :star: and share it with your friends! You can also find me on [Twitter](https://twitter.com/Vinit_Shahdeo) ⏎
 
 
 <a href="https://www.buymeacoffee.com/vinitshahdeo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 20% !important;width: 20% !important;" ></a>
