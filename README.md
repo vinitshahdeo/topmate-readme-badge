@@ -15,6 +15,9 @@
    <a href="https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c">
     <img src="http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman"/>
    </a>
+   <a href="https://vinitshahdeo.dev/">
+    <img src="https://img.shields.io/badge/Check%20my%20blog%20on%20Hashnode-2962FF?logo=hashnode&logoColor=white"/>
+   </a>
    </br>
    </br>
 </div>
@@ -67,7 +70,7 @@ Run the above command and visit `http://localhost:3000/`
   
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
   
-The badges are powered by an express app deployed on Heroku. These are generated using a tiny-service written by me: [topmate.js]()
+The badges are powered by an express app deployed on Heroku. These are generated using a tiny-service written by me: [topmate.js](https://github.com/vinitshahdeo/topmate-readme-badge/blob/main/services/topmate.js)
   
 ```js
 topmate
