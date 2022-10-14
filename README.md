@@ -35,7 +35,7 @@ Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Top
 
 ## Style your badge 💅
 
-Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ⬇
+Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ⤵
 
 ```markdown
 ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)
@@ -51,7 +51,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 | `social`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=social)  |
 | `for-the-badge`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)  |
 
-## Local Setup
+## Setup
 
 ```bash
 npm i
@@ -83,6 +83,27 @@ topmate
 ```
 
 > Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format.
+
+## Contributing
+
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/topmate-readme-badge?logo=digitalocean&logoColor=white)
+
+Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/) or [Peerlist Badges Generator](https://peerlist-readme-badge.netlify.app/).
+
+This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) participants.
+
+### Local development
+
+> The react app is available inside the `client/` directory in the `feature/web-app`.
+
+Run the commands below to build locally 👇
+
+```bash
+git checkout feature/web-app
+cd client/topmate-readme-badge
+npm install
+npm run start
+```
 
 ## Similar projects
 
