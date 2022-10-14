@@ -86,12 +86,12 @@ topmate
 
 ## Similar projects
 
+[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
-
-
+[![peerlist-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
 
 ## Support
