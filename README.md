@@ -84,6 +84,15 @@ topmate
 
 > Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format.
 
+## Similar projects
+
+Here's `markdown` badge generator for any Peerlist profile 💚 
+➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
+
+[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+
+
+
 
 ## Support
 
