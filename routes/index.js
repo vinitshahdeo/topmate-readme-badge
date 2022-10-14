@@ -3,7 +3,7 @@ const express = require('express'),
   topmate = require('../services/topmate');
 
 router.get('/:id', function (req, res, next) {
-  const username = req.params.id,
+  const username = req.params.id, // topmate username
     style = req.query.style;
 
   topmate
