@@ -32,7 +32,7 @@ Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Top
 
 ## Style your badge 💅
 
-Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ↓
+Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ⬇
 
 ```markdown
 ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)
@@ -59,7 +59,7 @@ Run the above command and visit `http://localhost:3000/`
 
 ## API Documentation
 
-`GET baseUrl/:username` - please refer to the [Topmate README Badges public Postman collection](https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c) for the API documentation. Please feel free to fork and use! You can directly run the collection in Postman by using the **Run in Postman** button below :point_down:
+`GET baseUrl/:username` - please refer to the [Topmate README Badges public Postman collection](https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c) for the API documentation. Please feel free to fork and use! You can directly run the collection in Postman by using the **Run in Postman** button below ⬇
   
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c?action=collection%2Ffork&collection-url=entityId%3D6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c%26entityType%3Dcollection%26workspaceId%3Ddfda0a54-561a-45a8-b795-18038b8fd159#?env%5Btopmate%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly90b3BtYXRlLXJlYWRtZS1iYWRnZS5oZXJva3VhcHAuY29tIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQifV0=)
   
