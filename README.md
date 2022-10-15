@@ -26,7 +26,7 @@ Topmate is a platform to connect 1:1 with your audience & monetise your time bet
 
 ## Here's how?
 
-Replace `vinitshahdeo` in the markdown with your Topmate username. **Get a [Topmate profile here](https://topmate.io/) if you don't have one already!**
+Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your Topmate link](https://topmate.io/) if you haven't yet!**
 
 ```markdown
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
