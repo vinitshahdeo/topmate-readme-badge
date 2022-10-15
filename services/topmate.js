@@ -11,13 +11,12 @@ const base64Img = require('base64-img'),
   } = require('../config'),
   { COLOR_A, COLOR_B, DEFAULT_STYLE, BASE_URL } = BADGE_OPTIONS;
 
-	(getProfileUrl = (username) => {
-		if (!username) return DEFAULT_PROFILE_URL;
+(getProfileUrl = (username) => {
+  if (!username) return DEFAULT_PROFILE_URL;
 
-		const profileURL = `${TOPMATE_BASE_URL}/${username}`;
-		return profileURL;
-	}),
-
+  const profileURL = `${TOPMATE_BASE_URL}/${username}`;
+  return profileURL;
+}),
   (downloadBadge = async (badgeURL) => {
     const response = await axios.get(badgeURL),
       svgXml = response.data;
@@ -37,8 +36,8 @@ module.exports = {
    */
   generateBadge: (username = DEFAULT_USERNAME, style = DEFAULT_STYLE) => {
     const profileUrl = getProfileUrl(username),
-      qs = `link=${profileUrl}&logo=${logo}&colorA=${COLOR_A}&colorB=${COLOR_B}&style=${style}`;
-    badgeURL = `${BASE_URL}-${username}-critical?${qs}`;
+      qs = `link=${profileUrl}&logo=${logo}&colorA=${COLOR_A}&colorB=${COLOR_B}&style=${style}`,
+      badgeURL = `${BASE_URL}-${username}-critical?${qs}`;
 
     return downloadBadge(badgeURL);
   },
