@@ -18,8 +18,8 @@
    <a href="https://vinitshahdeo.dev/">
     <img src="https://img.shields.io/badge/Check%20my%20blog%20on%20Hashnode-2962FF?logo=hashnode&logoColor=white"/>
    </a>
-   </br>
-   </br>
+   <br />
+   <br />
 </div>
 
 Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community! If you haven't claimed your topmate link yet, visit [topmate.io](https://topmate.io/) to join 1000+ creators, experts and mentors creating impact with their time.
