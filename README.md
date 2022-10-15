@@ -124,6 +124,8 @@ Glad to see you here! Let me briefly tell you what has motivated me to build thi
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo/)
    
 A lot has changed over the years, from being mentored to mentoring. I've always believed in [giving back to the community](https://vinitshahdeo.dev/mentorship-mock-interviews-and-giving-back-to-the-community), and Topmate has made it easy for me to connect with my mentees - [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). I made this tiny-service to produce `README` badges for my GitHub repositories, which will help me engage with the **open-source** community.
+
+[![](./public/images/vinitshahdeo-topmate.png)](https://topmate.io/vinitshahdeo)
    
 Did you love it? Consider giving a :star: and share it with your friends! You can also find me on [Twitter](https://twitter.com/Vinit_Shahdeo) ⏎
 
