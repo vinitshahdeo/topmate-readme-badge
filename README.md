@@ -26,7 +26,7 @@ Topmate is a platform to connect 1:1 with your audience & monetise your time bet
 
 ## Here's how?
 
-Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Topmate profile here](https://topmate.io/) if you don't have one already!**
+Replace `vinitshahdeo` in the markdown with your Topmate username. **Get a [Topmate profile here](https://topmate.io/) if you don't have one already!**
 
 ```markdown
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
@@ -88,7 +88,7 @@ topmate
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/topmate-readme-badge?logo=digitalocean&logoColor=white)
 
-Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/) or [Peerlist Badges Generator](https://peerlist-readme-badge.netlify.app/).
+Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Topmate username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/) or [Peerlist Badges Generator](https://peerlist-readme-badge.netlify.app/).
 
 This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) participants.
 
