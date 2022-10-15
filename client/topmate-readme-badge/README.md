@@ -35,3 +35,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Deployment
+
+This is deployed using Netlify. Try it out here: [topmate-readme-badge.netlify.app/](https://topmate-readme-badge.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status)](https://app.netlify.com/sites/topmate-readme-badge/deploys)
+
