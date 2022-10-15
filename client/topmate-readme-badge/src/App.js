@@ -5,7 +5,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Coming soon! Please check out issues on GitHub and contribute to develop this web app to generate Topmate README badges
+          Coming soon! <br> 
+          Please check out issues on GitHub and contribute to develop this web app to generate Topmate README badges
         </p>
         <a
           className="App-link"
