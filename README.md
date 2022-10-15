@@ -54,7 +54,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 ## Setup
 
 ```bash
-npm i
+npm install
 npm start
 ```
 
@@ -102,7 +102,7 @@ Run the commands below to build locally 👇
 git checkout feature/web-app
 cd client/topmate-readme-badge
 npm install
-npm run start
+npm start
 ```
 
 ## Similar projects
