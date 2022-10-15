@@ -86,15 +86,17 @@ topmate
 
 ## Contributing
 
-![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/topmate-readme-badge?logo=digitalocean&logoColor=white)
-
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Topmate username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/) or [Peerlist Badges Generator](https://peerlist-readme-badge.netlify.app/).
+
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/topmate-readme-badge?logo=digitalocean&logoColor=white)
 
 This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) participants.
 
-### Local development
+### Topmate `README` Badge Generator
 
-> The react app is available inside the `client/` directory in the `feature/web-app`.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status)](https://app.netlify.com/sites/topmate-readme-badge/deploys)
+
+> The react app is available inside the `client/` directory in the `feature/web-app`. This is currently deployed using Netlify. Try it our here: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/)
 
 Run the commands below to build locally 👇
 
@@ -105,11 +107,17 @@ npm install
 npm start
 ```
 
+### Topmate `README` Badge Generator
+
+
+
+
 ## Similar projects
 
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
-
 Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.
+
+
+[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
 
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
