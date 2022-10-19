@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "c863d626-b2e3-49bf-82d0-4e4cb46a089c",
+		"name": "Topmate README Badges API",
+		"description": "Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community! If you haven't claimed your topmate link yet, visit [topmate.io](https://topmate.io/) to join 1000+ creators, experts and mentors creating impact with their time.\n\n[![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n\n> **Here's the GitHub repository: [vinitshahdeo/topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge/)**\n\n### API\n\n\n- Base URL: https://topmate-readme-badge.herokuapp.com\n- Route param: `username` - Your Topmate username\n- Query param: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n```markdown\n[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n```",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6186519"
+	},
+	"item": [
+		{
+			"name": "Get Default Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flat Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username?style=flat",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "flat",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flat Square Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username?style=flat-square",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "flat-square",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Plastic Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username?style=plastic",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "plastic",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=plastic)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Social Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username?style=social",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "social",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=social)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get For The Badge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/:username?style=for-the-badge",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "for-the-badge",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Enter your Topmate.io username"
+						}
+					]
+				},
+				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)"
+			},
+			"response": []
+		}
+	]
+}
