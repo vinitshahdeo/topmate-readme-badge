@@ -53,7 +53,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 ## Setup
 
-```bash
+```console
 npm install
 npm start
 ```
