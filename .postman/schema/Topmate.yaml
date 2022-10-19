@@ -1,0 +1,72 @@
+openapi: 3.0.0
+info:
+  title: Topmate README Badges API
+  description: >-
+    Topmate is a platform to connect 1:1 with your audience & monetise your time
+    better. Basically, one link to do it all ➥
+    [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you
+    can now **add a markdown badge** in your GitHub profile `README` to connect
+    with your community! If you haven't claimed your topmate link yet, visit
+    [topmate.io](https://topmate.io/) to join 1000+ creators, experts and
+    mentors creating impact with their time.
+
+
+    [![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+
+
+    > **Here's the GitHub repository:
+    [vinitshahdeo/topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge/)**
+
+
+    ### API
+
+
+
+    - Base URL: https://topmate-readme-badge.herokuapp.com
+
+    - Route param: `username` - Your Topmate username
+
+    - Query param: `style` - It can be flat, flat-square, plastic, social and
+    for-the-badge
+
+
+    ### Usage
+
+
+    ```markdown
+
+    [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+
+    ```
+  version: 1.0.0
+servers:
+  - url: http://{{baseurl}}
+paths:
+  /{username}:
+    get:
+      tags:
+        - default
+      summary: Get For The Badge
+      description: >-
+        ![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)
+      parameters:
+        - name: style
+          in: query
+          schema:
+            type: string
+          description: >-
+            Badge style. It can be flat, flat-square, plastic, social and
+            for-the-badge
+          example: for-the-badge
+        - name: username
+          in: path
+          schema:
+            type: string
+          required: true
+          description: Enter your Topmate.io username
+          example: vinitshahdeo
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
