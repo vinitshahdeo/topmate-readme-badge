@@ -1,5 +1,5 @@
-import CodeComponent from "../CodeComponent/CodeComponent";
-import "../Results/Results.css";
+import CodeComponent from '../CodeComponent/CodeComponent';
+import '../Results/Results.css';
 
 const Results = ({ badgeUrl, linkProfile, isLinkToPeerlist }) => {
   const badgeMdUrl = `![Topmate](${badgeUrl})`;
@@ -9,11 +9,15 @@ const Results = ({ badgeUrl, linkProfile, isLinkToPeerlist }) => {
   return (
     <div className="ResultsContainer">
       <div className="ResultsContainer__ImageWrapper">
-      <img src={badgeUrl} alt="badge" />
+        <img src={badgeUrl} alt="badge" />
       </div>
-      <CodeComponent label={"Markdown"} url={isLinkToPeerlist ? badgeMdUrlLink : badgeMdUrl} />
-      <CodeComponent label={"Html"} url={htmlUrl} />
+      <CodeComponent
+        label={'Markdown'}
+        url={isLinkToPeerlist ? badgeMdUrlLink : badgeMdUrl}
+      />
+      <CodeComponent label={'Html'} url={htmlUrl} />
     </div>
   );
 };
+
 export default Results;

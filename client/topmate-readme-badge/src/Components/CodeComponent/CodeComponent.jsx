@@ -1,15 +1,15 @@
-import "../CodeComponent/CodeComponent.css";
-import { AiFillCopy, AiOutlineCheck } from "react-icons/ai";
-import { useState } from "react";
+import '../CodeComponent/CodeComponent.css';
+import { AiFillCopy, AiOutlineCheck } from 'react-icons/ai';
+import { useState } from 'react';
 
 const CodeComponent = ({ label, url }) => {
   const [isCopied, setisCopied] = useState(false);
 
   async function copyTextToClipboard(text) {
-    if ("clipboard" in navigator) {
+    if ('clipboard' in navigator) {
       return await navigator.clipboard.writeText(text);
     } else {
-      return document.execCommand("copy", true, text);
+      return document.execCommand('copy', true, text);
     }
   }
 
@@ -45,4 +45,5 @@ const CodeComponent = ({ label, url }) => {
     </div>
   );
 };
+
 export default CodeComponent;

@@ -1,6 +1,6 @@
-import "../Input/Input.css";
+import '../Input/Input.css';
 
-const Input = ({ label, value, inputId, setFormState ,isRequired}) => {
+const Input = ({ label, value, inputId, setFormState, isRequired }) => {
   return (
     <div className="InputContainer">
       <label htmlFor={inputId} className="InputContainer__Label">
@@ -19,4 +19,5 @@ const Input = ({ label, value, inputId, setFormState ,isRequired}) => {
     </div>
   );
 };
+
 export default Input;
