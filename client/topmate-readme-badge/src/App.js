@@ -50,7 +50,7 @@ function App() {
   return (
     <>
     <div>
-    <img className="img_badge" src="/image10.png" alt="alternate" />
+    <img className="img_badge" src="/image10.png" alt="alternate"/>
 
     <div className="HeaderContainerComponent">
  
@@ -70,7 +70,7 @@ function App() {
           </div>
     <main className="MainContainer">
      
-      <h1 className="MainContainer__Title"><span className="Topmate">Topmate.io</span> Readme Badge Generator</h1>
+      <h1 className="MainContainer__Title"><span className="Topmate">Topmate.io</span> README <span className="code-md">Badge</span> Generator</h1>
       <h1 className="MainContainer__SubTitle">Style your GitHub Profile README with an awesome badge!</h1>
       <div className="FormContainer">
         <form onSubmit={onSubmit}>
