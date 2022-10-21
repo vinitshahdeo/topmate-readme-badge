@@ -4,7 +4,7 @@ import CustomSelect from "./Components/CustomSelect/CustomSelect";
 import Input from "./Components/Input/Input";
 import GitHubButton from 'react-github-btn';
 import {FaLongArrowAltRight} from 'react-icons/fa'
-import InputUsername from "./Components/InputUsername/InputUsername";
+
 import Results from "./Components/Results/Results";
 
 const options = [
@@ -24,27 +24,25 @@ const initialFormState = {
 function App() {
   const [formState, setFormState] = useState(initialFormState);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isChecked, setIsChecked] = useState(false);
+
   const [badgeUrl, setBadgeUrl] = useState(
-    `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`
+    `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`
   );
-  const [linkProfile, setLinkProfile] = useState(`https://peerlist.io/${formState.peerlistUsername}`);
+
 
   const onSubmit = (e) => {
     e.preventDefault();
     setBadgeUrl(
       (prev) =>
-        (prev = `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`)
+        (prev = `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`)
     );
-    if (isChecked) {
-      setLinkProfile((prev) => (prev = `https://peerlist.io/${formState.peerlistUsername}`));
-    }
+ 
     setIsSubmitted(true);
   };
 
   const onSelectValueChange = ({ value }) => {
     if (isSubmitted) {
-      setBadgeUrl(`https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${value}`);
+      setBadgeUrl(`https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${value}`);
     }
     setFormState((prev) => ({ ...prev, selectValue: value }));
   };
@@ -52,7 +50,7 @@ function App() {
   return (
     <>
     <div>
-    <img className="img_badge" src="/image10.png" alt="image" />
+    <img className="img_badge" src="/image10.png" alt="alternate" />
 
     <div className="HeaderContainerComponent">
  
@@ -68,11 +66,11 @@ function App() {
           </div>
           <div className="container">
           <div >
-          <img   src="/image13.png" alt="image" />
+          <img   src="/image13.png" alt="alternate" />
           </div>
     <main className="MainContainer">
      
-      <h1 className="MainContainer__Title"><a className="Topmate">Topmate.io</a> Readme Badge Generator</h1>
+      <h1 className="MainContainer__Title"><span className="Topmate">Topmate.io</span> Readme Badge Generator</h1>
       <h1 className="MainContainer__SubTitle">for README.md</h1>
       <div className="FormContainer">
         <form onSubmit={onSubmit}>
@@ -85,18 +83,18 @@ function App() {
             options={options}
           />
         
-          {isChecked && <InputUsername value={formState.peerlistUsername} setFormState={setFormState} />}
+  
           <div className="FormContainer__ButtonWrapper">
             <button className="FormContainer__Button">Generate Badge</button>
           </div>
-          <div className="Move_Another">Click here to get your <a style={{color: '#00AA45'}}>peerlist badge</a></div>
+          <div className="Move_Another">Click here to get your <span  style={{color: '#00AA45'}}>peerlist badge</span></div>
         </form>
       
       </div>
-      {isSubmitted && <Results badgeUrl={badgeUrl} linkProfile={linkProfile} isLinkToPeerlist={isChecked} />}
+      {isSubmitted && <Results badgeUrl={badgeUrl}/>}
     </main>
     <div >
-          <img   src="/image12.png" alt="image" />
+          <img   src="/image12.png" alt="alternate" />
           </div>
     </div>
    
