@@ -1,7 +1,7 @@
-import React from 'react'
-import "../InputUsername/InputUsername.css"
+import React from 'react';
+import '../InputUsername/InputUsername.css';
 
-const InputUsername = ({value, setFormState}) => {
+const InputUsername = ({ value, setFormState }) => {
   return (
     <div className="InputUsernameContainer">
       <label htmlFor="#inputUsername" className="InputUsernameContainer__Label">
@@ -18,7 +18,7 @@ const InputUsername = ({value, setFormState}) => {
         required
       />
     </div>
-  )
-}
+  );
+};
 
-export default InputUsername
+export default InputUsername;
