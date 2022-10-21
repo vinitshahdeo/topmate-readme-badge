@@ -18,7 +18,7 @@ const options = [
 const initialFormState = {
   nameValue: "",
   selectValue: options[0].value,
-  peerlistUsername: "",
+  topmateUsername: ""
 };
 
 function App() {
@@ -71,12 +71,12 @@ function App() {
     <main className="MainContainer">
      
       <h1 className="MainContainer__Title"><span className="Topmate">Topmate.io</span> Readme Badge Generator</h1>
-      <h1 className="MainContainer__SubTitle">for README.md</h1>
+      <h1 className="MainContainer__SubTitle">Style your GitHub Profile README with an awesome badge!</h1>
       <div className="FormContainer">
         <form onSubmit={onSubmit}>
-          <Input label="Name" value={formState.nameValue} setFormState={setFormState} inputId="name" isRequired />
+          <Input label="Enter Topmate username" value={formState.nameValue} setFormState={setFormState} inputId="name" isRequired />
           <CustomSelect
-            label="Style"
+            label="Choose badge style"
             placeholder="Select"
             className="FormContainer__Select"
             onChange={onSelectValueChange}
