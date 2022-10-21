@@ -1,5 +1,5 @@
 .MainContainer {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
 
@@ -18,8 +18,15 @@
   margin-left: 7%;
 
 }
+.code-md {
+  background-color: #E64130;
+  padding: 6px;
+  border-radius: 8px;
+  color: #FDF2E6;
+}
 .Topmate{
   color: #E64130;
+  font-weight: 900;
 }
 .container{
   display: flex;
