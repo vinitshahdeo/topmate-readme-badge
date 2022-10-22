@@ -65,7 +65,7 @@ function App() {
           <img className="img_badge" src="/topmate_light.png" alt="alternate" />
 
           <div className="HeaderContainerComponent">
-            <div style={{ marginTop: '5px', marginRight: '8px' }}>
+            <div style={{ marginTop: '5px', marginRight: '7px' }}>
               <GitHubButton
                 href="https://github.com/vinitshahdeo/topmate-readme-badge"
                 data-size="large"
@@ -86,7 +86,7 @@ function App() {
                 Star
               </GitHubButton>
             </div>
-            <div style={{ marginTop: '5px', marginRight: '20px' }}>
+            <div style={{ marginTop: '5px', marginRight: '7px' }}>
               <GitHubButton
                 href="https://github.com/vinitshahdeo/topmate-readme-badge/fork"
                 data-color-scheme="no-preference: light; light: light; dark: light;"
