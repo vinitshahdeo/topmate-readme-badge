@@ -97,10 +97,10 @@ function App() {
         <main className="MainContainer">
           <h1 className="MainContainer__Title">
             <span className="Topmate">Topmate.io</span> README{' '}
-            <span className="code-md">Badge</span> Generator
+            Badge Generator
           </h1>
           <h1 className="MainContainer__SubTitle">
-            Style your GitHub Profile README with an awesome <div style ={{ marginRight: '5px', marginLeft: '5px'}}><img src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat" alt="Topmate Badge" /></div>  badge! 
+            Style your GitHub Profile README with an awesome <div style ={{ marginRight: '5px', marginLeft: '5px'}}><img src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat" alt="Topmate Badge" /></div>  badge
           </h1>
           <div className="FormContainer">
             <form onSubmit={onSubmit}>
@@ -129,7 +129,7 @@ function App() {
                   Click here to get your{' '}
                   <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
                   <div
-                  style={{ float: 'right', marginTop: '1.5px' }}
+                  style={{ float: 'right', marginTop: '1.5px', marginLeft: '2px' }}
             >
   <FiExternalLink  />
             </div>
