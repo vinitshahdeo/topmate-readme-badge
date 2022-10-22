@@ -21,6 +21,7 @@
 }
 .head{
   margin-bottom:4px;
+
 }
 .code-md {
   background-color: #E64130;
@@ -36,14 +37,16 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
 }
 
 .HeaderContainerComponent{
   float: right;
   margin-top: 3%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;  
+  justify-content: space-between;
   margin-right: 5%;
 }
 .button_topmate{
@@ -131,17 +134,24 @@
   background-color: #E64130;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 730px) {
   .MainContainer__SubTitle{
     justify-content: center;
     margin: 5px;
   }
   .head{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   .container{
     text-align: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .img_badge{
     margin-top: 3%;
@@ -158,7 +168,7 @@
   }
   .HeaderContainerComponent{
     text-align: center;
-    justify-content: space-between !important; 
+   align-items: center;
 
   }
 }
