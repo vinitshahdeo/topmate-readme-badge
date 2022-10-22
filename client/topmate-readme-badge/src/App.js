@@ -3,7 +3,8 @@ import './App.css';
 import CustomSelect from './Components/CustomSelect/CustomSelect';
 import Input from './Components/Input/Input';
 import GitHubButton from 'react-github-btn';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 
 import Results from './Components/Results/Results';
 
@@ -84,7 +85,7 @@ function App() {
             <div
               style={{ float: 'right', marginTop: '1.5px', marginLeft: '4px' }}
             >
-              <FaLongArrowAltRight />
+              <FaExternalLinkAlt />
             </div>
           </button>
         </div>
@@ -99,7 +100,7 @@ function App() {
             <span className="code-md">Badge</span> Generator
           </h1>
           <h1 className="MainContainer__SubTitle">
-            Style your GitHub Profile README with an awesome badge!
+            Style your GitHub Profile README with an awesome badge! <img src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat" alt="Topmate Badge" />
           </h1>
           <div className="FormContainer">
             <form onSubmit={onSubmit}>
@@ -124,8 +125,11 @@ function App() {
                 </button>
               </div>
               <div className="Move_Another">
-                Click here to get your{' '}
-                <span style={{ color: '#00AA45' }}>peerlist badge</span>
+                <a href="https://github.com/vinitshahdeo/peerlist-readme-badge" target={'_blank'}>
+                  Click here to get your{' '}
+                  <span style={{ color: '#E64130' }}>Peerlist</span> Badge!
+                  <FiExternalLink />
+                </a>
               </div>
             </form>
           </div>

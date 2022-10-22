@@ -12,6 +12,7 @@
   color: #2F363D;
   font-weight: 700;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 .img_badge{
   margin-top: 3%;
@@ -39,10 +40,10 @@
    flex-direction: row;
 }
 .button_topmate{
-  background-color: #2F363D;
+  background-color: #2A2827;
   border-radius: 5px;
   padding: 8px;
-  color: #fff;
+  color: #FDF2E6;
   margin-left: 7px;
   margin-right: 7px;
 }
@@ -53,6 +54,8 @@
 }
 .MainContainer__SubTitle{
   color: #a1a5a8;
+  font-family: 'Neucha', cursive;
+  font-weight: bolder;
   font-size: 1.125rem;
   margin-top: 0.5rem;
   text-align: center;

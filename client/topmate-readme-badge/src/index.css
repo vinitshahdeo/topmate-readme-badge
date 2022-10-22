@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Modak&family=Poppins&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@400;500&family=Rubik&display=swap');
 
 body {
   margin: 0;
@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FDF2E6;
+  color: #2A2827;
 }
 
 code {
