@@ -158,10 +158,9 @@
   }
   .img_badge{
     margin-top: 3%;
-     margin-left: 0%;
-     width: 200px;
-     height: 20%;
-  
+    margin-left: 0%;
+    width: 200px;
+    height: 20%;
   }
   .MainContainer {
     margin-top: 3%;
@@ -172,6 +171,5 @@
   .HeaderContainerComponent{
     text-align: center;
    align-items: center;
-
   }
 }

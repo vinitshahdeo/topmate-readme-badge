@@ -141,21 +141,15 @@ function App() {
 
                 <div className="FormContainer__ButtonWrapper">
                   <button className="FormContainer__Button">
-                 
-                  
-                     
                     Generate Badge
-                    <span style={{
-                      
-                      marginTop: '3px',
-                      marginLeft: '7px'
-                      
-                    }} >
-                    <SiMarkdown 
-                     
-                      />
-                      </span>
-
+                    <span
+                      style={{
+                        marginTop: '3px',
+                        marginLeft: '7px'
+                      }}
+                    >
+                      <SiMarkdown />
+                    </span>
                   </button>
                 </div>
                 <div className="Move_Another">
