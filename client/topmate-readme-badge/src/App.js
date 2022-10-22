@@ -127,16 +127,46 @@ function App() {
               <div className="Move_Another">
                 <a href="https://github.com/vinitshahdeo/peerlist-readme-badge" target={'_blank'}>
                   Click here to get your{' '}
-                  <span style={{ color: '#E64130' }}>Peerlist</span> Badge!
-                  <FiExternalLink />
+                  <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
+                  <div
+                  style={{ float: 'right', marginTop: '1.5px' }}
+            >
+  <FiExternalLink  />
+            </div>
+             <a >   </a> 
                 </a>
               </div>
             </form>
           </div>
           {isSubmitted && <Results badgeUrl={badgeUrl} />}
+          <div className="button_Container">
+            <div >
+          <button className="button_postman">
+        View on Postman
+            <div
+                  style={{ float: 'left', marginTop: '1.5px', marginRight: '4px' }}
+            >
+    <SiPostman/> 
+            </div>
+            </button>
+            </div>
+            <div>
+          <button className="button_twitter">
+         Share on Twitter
+            <div
+              style={{ float: 'left', marginTop: '1.5px', marginRight: '4px' }}
+            >
+   <ImTwitter/> 
+            </div>
+            </button>
+            </div>
+            </div>
         </main>
+        
         </div>
+        
    </div>
+
     </>
   );
 }

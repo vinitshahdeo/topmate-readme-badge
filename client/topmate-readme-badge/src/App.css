@@ -54,10 +54,35 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+.button_Container {
+ display: flex;
+ flex-direction: row;
+
+ margin-bottom: 50px;
+ margin-top: 50px;
+
+ align-items: center;
+}
+.button_postman {
+  background-color: #FF6C37;
+  border-radius: 5px;
+  padding: 8px;
+  color: #FDF2E6;
+  margin-right: 10px;
+
+}
+.button_twitter{
+  background-color:  #1DA1F2;
+  border-radius: 5px;
+  padding: 8px;
+  color: #FDF2E6;
+}
 .Move_Another{
   font-size: 12px;
   margin-top: 5%;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
 .MainContainer__SubTitle{
@@ -113,6 +138,7 @@
 @media screen and (min-width: 480px) {
   .MainContainer__SubTitle{
     justify-content: center;
-    width: 70%;
+    width: 50%;
   }
+
 }
