@@ -45,6 +45,8 @@
   margin-top: 3%;
   display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
+ margin-right: 5%;
 }
 .button_topmate{
 
@@ -158,5 +160,12 @@
   .MainContainer {
     margin-top: 3%;
   }
-  
+  .FormContainer{
+   width: 70%;
+  }
+  .HeaderContainerComponent{
+    text-align: center;
+    justify-content: space-between !important; 
+
+  }
 }
