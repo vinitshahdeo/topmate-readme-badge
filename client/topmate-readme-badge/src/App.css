@@ -91,9 +91,11 @@
   font-size: 1.125rem;
   margin-top: 1rem;
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* margin: 5%; */
 }
 
 .FormContainer{
@@ -134,10 +136,27 @@
   background-color: #E64130;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .MainContainer__SubTitle{
     justify-content: center;
-    width: 50%;
+    margin: 5px;
   }
-
+  .head{
+  text-align: center;
+  }
+  .container{
+    text-align: center;
+    justify-content: center;
+  }
+  .img_badge{
+    margin-top: 3%;
+     margin-left: 0%;
+     width: 200px;
+     height: 20%;
+  
+  }
+  .MainContainer {
+    margin-top: 3%;
+  }
+  
 }
