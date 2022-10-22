@@ -5,7 +5,7 @@ import Input from './Components/Input/Input';
 import GitHubButton from 'react-github-btn';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
-import { SiPostman } from 'react-icons/si';
+import { SiPostman, SiMarkdown } from 'react-icons/si';
 import { ImTwitter } from 'react-icons/im';
 import Results from './Components/Results/Results';
 
@@ -141,6 +141,11 @@ function App() {
 
                 <div className="FormContainer__ButtonWrapper">
                   <button className="FormContainer__Button">
+                      <SiMarkdown 
+                        style={{
+                          margin: '4px'
+                        }} 
+                      />
                     Generate Badge
                   </button>
                 </div>

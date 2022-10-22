@@ -116,11 +116,11 @@
   margin-top: calc(.625rem * 2);
   background-color: #E64130;
   color: #FDF2E6;
-  letter-spacing: 0.1em;
   padding:0.75rem .625rem;
   border-radius: 5px;
   user-select: none;
   width: 100%;
+  font-weight: bolder;
   text-align: center;
 }
 
