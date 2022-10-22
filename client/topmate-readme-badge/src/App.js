@@ -31,11 +31,19 @@ function App() {
     `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`
   );
 
+  const [linkProfile, setLinkProfile] = useState(
+    `https://peerlist.io/${formState.topmateUsername}`
+  );
+
   const onSubmit = (e) => {
     e.preventDefault();
     setBadgeUrl(
       (prev) =>
         (prev = `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`)
+    );
+
+    setLinkProfile(
+      (prev) => (prev = `https://topmate.io/${formState.nameValue}`)
     );
 
     setIsSubmitted(true);
@@ -101,7 +109,11 @@ function App() {
             <h1 className="MainContainer__SubTitle">
               Style your GitHub Profile README with an awesome{' '}
               <div style={{ marginRight: '5px', marginLeft: '5px' }}>
-                <a href="https://topmate.io/vinitshahdeo" target={'_blank'}>
+                <a
+                  href="https://topmate.io/vinitshahdeo"
+                  target={'_blank'}
+                  rel="noreferrer"
+                >
                   <img
                     src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat"
                     alt="Topmate Badge"
@@ -136,6 +148,7 @@ function App() {
                   <a
                     href="https://github.com/vinitshahdeo/peerlist-readme-badge"
                     target={'_blank'}
+                    rel="noreferrer"
                   >
                     Click here to get your{' '}
                     <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
@@ -148,18 +161,20 @@ function App() {
                     >
                       <FiExternalLink />
                     </div>
-                    <a> </a>
                   </a>
                 </div>
               </form>
             </div>
-            {isSubmitted && <Results badgeUrl={badgeUrl} />}
+            {isSubmitted && (
+              <Results badgeUrl={badgeUrl} linkProfile={linkProfile} />
+            )}
             <div className="button_Container">
               <div>
                 <button className="button_postman">
                   <a
                     href="https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c"
                     target={'_blank'}
+                    rel="noreferrer"
                   >
                     {' '}
                     View on Postman{' '}
@@ -175,12 +190,13 @@ function App() {
                   </div>
                 </button>
               </div>
-              
+
               <div>
                 <button className="button_twitter">
                   <a
                     href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Ftopmate-readme-badge&via=Vinit_Shahdeo&text=Style%20your%20GitHub%20Profile%20README%20with%20an%20awesome%20Topmate%20badge&hashtags=topmate%2Creadme%2Cbadge"
                     target={'_blank'}
+                    rel="noreferrer"
                   >
                     {' '}
                     Share on Twitter{' '}
@@ -196,24 +212,18 @@ function App() {
                   </div>
                 </button>
               </div>
-              
             </div>
             <div>
-       
-                  <div
-                    style={{
-                    
-                    textAlign: 'center',
-                      fontSize: '13px',
-                      color: '#E64130',
-                    
-                    }}
-                  >
-                     Claim your Topmate link <FaExternalLinkAlt/>
-                  </div>
-              
-            
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontSize: '13px',
+                  color: '#E64130'
+                }}
+              >
+                Claim your Topmate link <FaExternalLinkAlt />
               </div>
+            </div>
           </main>
         </div>
       </div>
