@@ -214,15 +214,27 @@ function App() {
               </div>
             </div>
             <div>
-              <div
-                style={{
-                  textAlign: 'center',
-                  fontSize: '13px',
-                  color: '#E64130'
-                }}
-              >
-                Claim your Topmate link <FaExternalLinkAlt />
-              </div>
+              <a href="https://topmate.io" target={'_blank'} rel="noreferrer">
+                <div
+                  style={{
+                    textAlign: 'center',
+                    fontSize: '13px',
+                    color: '#E64130',
+                    fontWeight: 'bolder'
+                  }}
+                >
+                  Claim your Topmate link
+                  <div
+                    style={{
+                      float: 'right',
+                      marginTop: '1.5px',
+                      marginLeft: '4px'
+                    }}
+                  >
+                    <FaExternalLinkAlt />
+                  </div>
+                </div>
+              </a>
             </div>
           </main>
         </div>
