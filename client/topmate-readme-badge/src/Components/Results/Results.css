@@ -1,5 +1,5 @@
 .ResultsContainer{
-    margin-top: calc(.625rem * 4);
+    margin-top: calc(.625rem * 2);
     width: min(95%,750px);
 }
 

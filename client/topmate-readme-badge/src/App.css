@@ -17,7 +17,12 @@
 .img_badge{
   margin-top: 3%;
   margin-left: 7%;
+   width: 200px;
+   height: 20%;
 
+}
+.head{
+  margin-bottom:50px;
 }
 .code-md {
   background-color: #E64130;
@@ -31,11 +36,13 @@
 }
 .container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
 .HeaderContainerComponent{
   float: right;
-  margin-top: 4%;
+  margin-top: 3%;
   display: flex;
    flex-direction: row;
 }
@@ -44,21 +51,25 @@
   border-radius: 5px;
   padding: 8px;
   color: #FDF2E6;
-  margin-left: 7px;
-  margin-right: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .Move_Another{
   font-size: 12px;
-  margin-top: 10%;
-  margin-left: 10%;
+  margin-top: 5%;
+  text-align: center;
+
 }
 .MainContainer__SubTitle{
   color: #a1a5a8;
   font-family: 'Neucha', cursive;
   font-weight: bolder;
   font-size: 1.125rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .FormContainer{
@@ -97,4 +108,11 @@
 .FormContainer__Button:hover{
   cursor: pointer;
   background-color: #E64130;
+}
+
+@media screen and (min-width: 480px) {
+  .MainContainer__SubTitle{
+    justify-content: center;
+    width: 70%;
+  }
 }
