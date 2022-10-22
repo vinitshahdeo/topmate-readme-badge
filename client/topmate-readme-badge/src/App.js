@@ -5,7 +5,8 @@ import Input from './Components/Input/Input';
 import GitHubButton from 'react-github-btn';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
-
+import { SiPostman } from "react-icons/si";
+import { ImTwitter } from "react-icons/im";
 import Results from './Components/Results/Results';
 
 const options = [
@@ -51,8 +52,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <img className="img_badge" src="/image10.png" alt="alternate" />
+    <div className="container">
+      <div className="head">
+        <img className="img_badge" src="/topmate_light.png" alt="alternate" />
 
         <div className="HeaderContainerComponent">
           <div style={{ marginLeft: '10px', marginTop: '5px' }}>
@@ -90,17 +92,15 @@ function App() {
           </button>
         </div>
       </div>
-      <div className="container">
-        <div>
-          <img src="/image13.png" alt="alternate" />
-        </div>
+
+       <div>
         <main className="MainContainer">
           <h1 className="MainContainer__Title">
             <span className="Topmate">Topmate.io</span> README{' '}
             <span className="code-md">Badge</span> Generator
           </h1>
           <h1 className="MainContainer__SubTitle">
-            Style your GitHub Profile README with an awesome badge! <img src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat" alt="Topmate Badge" />
+            Style your GitHub Profile README with an awesome <div style ={{ marginRight: '5px', marginLeft: '5px'}}><img src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat" alt="Topmate Badge" /></div>  badge! 
           </h1>
           <div className="FormContainer">
             <form onSubmit={onSubmit}>
@@ -135,10 +135,8 @@ function App() {
           </div>
           {isSubmitted && <Results badgeUrl={badgeUrl} />}
         </main>
-        <div>
-          <img src="/image12.png" alt="alternate" />
         </div>
-      </div>
+   </div>
     </>
   );
 }
