@@ -213,7 +213,11 @@ function App() {
                 </button>
               </div>
             </div>
-            <div>
+            <div
+              style={{
+                marginBottom: '28px'
+              }}
+            >
               <a href="https://topmate.io" target={'_blank'} rel="noreferrer">
                 <div
                   style={{
