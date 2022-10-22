@@ -22,7 +22,7 @@
 
 }
 .head{
-  margin-bottom:50px;
+  margin-bottom:4px;
 }
 .code-md {
   background-color: #E64130;
@@ -96,7 +96,7 @@
 .FormContainer__Button{
   margin-top: calc(.625rem * 2);
   background-color: #E64130;
-  color: white;
+  color: #FDF2E6;
   letter-spacing: 0.1em;
   padding:0.75rem .625rem;
   border-radius: .15rem;
