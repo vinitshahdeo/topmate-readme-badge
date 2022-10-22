@@ -18,6 +18,8 @@
     gap: 0.125rem;
     justify-content: space-between;
     align-items: center;
+    border-style: dashed;
+    border-color: #a1a5a8;
 }
 
 .CodeBlock__Wrapper>code{
