@@ -175,20 +175,7 @@ function App() {
                   </div>
                 </button>
               </div>
-              <div>
-                <button className="button_topmate">
-                  <div
-                    style={{
-                      float: 'left',
-                      marginTop: '1.5px',
-                      marginRight: '4px'
-                    }}
-                  >
-                    <FaExternalLinkAlt />
-                  </div>
-                  Claim your Topmate link
-                </button>
-              </div>
+              
               <div>
                 <button className="button_twitter">
                   <a
@@ -209,7 +196,24 @@ function App() {
                   </div>
                 </button>
               </div>
+              
             </div>
+            <div>
+       
+                  <div
+                    style={{
+                    
+                    textAlign: 'center',
+                      fontSize: '13px',
+                      color: '#E64130',
+                    
+                    }}
+                  >
+                     Claim your Topmate link <FaExternalLinkAlt/>
+                  </div>
+              
+            
+              </div>
           </main>
         </div>
       </div>
