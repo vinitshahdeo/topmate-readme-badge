@@ -1,10 +1,10 @@
 import CodeComponent from '../CodeComponent/CodeComponent';
 import '../Results/Results.css';
 
-const Results = ({ badgeUrl, linkProfile, isLinkToPeerlist }) => {
+const Results = ({ badgeUrl, linkProfile, isLinkToPeerlist = true }) => {
   const badgeMdUrl = `![Topmate](${badgeUrl})`;
   const badgeMdUrlLink = `[![Topmate](${badgeUrl})](${linkProfile})`;
-  const htmlUrl = `<img src="${badgeUrl}" alt="Topmate Badge" />`;
+  const htmlUrl = `<a href="${linkProfile}"><img src="${badgeUrl}" alt="Connect on Topmate" /></a>`;
 
   return (
     <div className="ResultsContainer">
