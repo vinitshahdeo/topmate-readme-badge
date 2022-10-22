@@ -12,7 +12,7 @@
   color: #2F363D;
   font-weight: 700;
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .img_badge{
   margin-top: 3%;
@@ -22,7 +22,7 @@
 
 }
 .head{
-  margin-bottom:50px;
+  margin-bottom:4px;
 }
 .code-md {
   background-color: #E64130;
@@ -51,8 +51,7 @@
   border-radius: 5px;
   padding: 8px;
   color: #FDF2E6;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .button_Container {
  display: flex;
@@ -82,13 +81,13 @@
   margin-top: 5%;
   display: flex;
   flex-direction: row;
+  /* color: #a1a5a8; */
   justify-content: center;
-
 }
 .MainContainer__SubTitle{
   color: #a1a5a8;
   font-family: 'Neucha', cursive;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.125rem;
   margin-top: 1rem;
   text-align: center;
@@ -121,7 +120,7 @@
 .FormContainer__Button{
   margin-top: calc(.625rem * 2);
   background-color: #E64130;
-  color: white;
+  color: #FDF2E6;
   letter-spacing: 0.1em;
   padding:0.75rem .625rem;
   border-radius: .15rem;
