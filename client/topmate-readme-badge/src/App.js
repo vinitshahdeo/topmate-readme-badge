@@ -127,16 +127,46 @@ function App() {
               <div className="Move_Another">
                 <a href="https://github.com/vinitshahdeo/peerlist-readme-badge" target={'_blank'}>
                   Click here to get your{' '}
-                  <span style={{ color: '#E64130' }}>Peerlist</span> Badge!
-                  <FiExternalLink />
+                  <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
+                  <div
+                  style={{ float: 'right', marginTop: '1.5px' }}
+            >
+  <FiExternalLink  />
+            </div>
+             <a >   </a> 
                 </a>
               </div>
             </form>
           </div>
           {isSubmitted && <Results badgeUrl={badgeUrl} />}
+          <div className="button_Container">
+            <div >
+          <button className="button_postman">
+          <a href="https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c" target={'_blank'} >     View on Postman </a>
+            <div
+                  style={{ float: 'left', marginTop: '1.5px', marginRight: '4px' }}
+            >
+    <SiPostman/> 
+            </div>
+            </button>
+            </div>
+            <div>
+          <button className="button_twitter">
+          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Ftopmate-readme-badge&via=Vinit_Shahdeo&text=Style%20your%20GitHub%20Profile%20README%20with%20an%20awesome%20Topmate%20badge&hashtags=topmate%2Creadme%2Cbadge" target={'_blank'} >  Share on Twitter </a>  
+            <div
+              style={{ float: 'left', marginTop: '1.5px', marginRight: '4px' }}
+            >
+   <ImTwitter/> 
+            </div>
+            </button>
+            </div>
+            </div>
         </main>
+        
         </div>
+        
    </div>
+
     </>
   );
 }
