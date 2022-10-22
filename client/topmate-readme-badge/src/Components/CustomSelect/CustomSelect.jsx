@@ -18,21 +18,23 @@ const customStyles = {
   control: (provided) => ({
     ...provided,
     border: 0,
-    boxShadow: 'none'
+    boxShadow: 'none',
+    backgroundColor: '#FDF2E6'
   }),
   option: (provided, state) => ({
     ...provided,
-    backgroundColor: state.isSelected ? '#f6f8fa' : 'white',
-    color: state.isSelected ? 'black' : '',
+    backgroundColor: state.isSelected ? '#E64130' : '#FDF2E6',
+    color: state.isSelected ? '#FDF2E6' : '',
     '&:hover': {
       ...provided,
-      backgroundColor: state.isSelected ? '#f6f8fa' : '#f6f8fa',
+      backgroundColor: state.isSelected ? '#E64130' : '#f6f8fa',
       color: state.isSelected ? 'black' : '',
       cursor: 'pointer'
     }
   }),
   menu: (provided) => ({
     ...provided,
+    backgroundColor: '#FDF2E6',
     borderRadius: 0
   })
 };

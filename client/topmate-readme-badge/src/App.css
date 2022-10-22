@@ -66,6 +66,7 @@
 .FormContainer__Select{
   margin-block: .625rem;
   font-family: 'Inter', sans-serif;
+  background: transparent;
 }
 
 .FormContainer__CheckboxWrapper{

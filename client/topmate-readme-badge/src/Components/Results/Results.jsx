@@ -15,7 +15,7 @@ const Results = ({ badgeUrl, linkProfile, isLinkToPeerlist }) => {
         label={'Markdown'}
         url={isLinkToPeerlist ? badgeMdUrlLink : badgeMdUrl}
       />
-      <CodeComponent label={'Html'} url={htmlUrl} />
+      <CodeComponent label={'HTML'} url={htmlUrl} />
     </div>
   );
 };
