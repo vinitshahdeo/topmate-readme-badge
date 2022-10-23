@@ -22,6 +22,29 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 4. Make sure your code lints.
 5. Issue that pull request!
 
+## How to contribute?
+
+### `STEP 1` :  Fork [this](https://github.com/vinitshahdeo/topmate-readme-badge.git) repository.
+
+
+### `STEP 2` :  Clone your forked copy of the project.
+
+```
+git clone https://github.com/<your_username>/Git-CheatSheet.git
+```
+
+### `STEP 3` : Navigate to the project directory .
+
+```
+cd Git-CheatSheet
+```
+
+### `STEP 4` : Add a reference (remote) to the original repository.
+
+```
+git remote add upstream https://github.com/EshanTrivedi21/Git-CheatSheet.git
+```
+
 ## Any contributions you make will be under the MIT Software License
 
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/vinitshahdeo/topmate-readme-badge/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
