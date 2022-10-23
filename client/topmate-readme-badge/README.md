@@ -5,9 +5,16 @@
    </a>
 </h1>
 
-An online `README` Badge Generator for Topmate `README` Badges. Learn more [here](https://vinitshahdeo.github.io/topmate-readme-badge/).
+An online `README` Badge Generator for Topmate `README` Badges. Learn more [here](https://vinitshahdeo.github.io/topmate-readme-badge/). **Try it out here: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app)**
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Set up locally
+
+```terminal
+npm install
+npm start
+```
 
 ## Available Scripts
 
@@ -38,7 +45,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Deployment
 
-This is deployed using Netlify. Try it out here: [topmate-readme-badge.netlify.app/](https://topmate-readme-badge.netlify.app/)
+This is deployed using Netlify. Try it out here: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status)](https://app.netlify.com/sites/topmate-readme-badge/deploys)
 
@@ -48,3 +55,7 @@ Check out to `main` branch and you will find everything on `README.md`. Alternat
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c?action=collection%2Ffork&collection-url=entityId%3D6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c%26entityType%3Dcollection%26workspaceId%3Ddfda0a54-561a-45a8-b795-18038b8fd159#?env%5Btopmate%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly90b3BtYXRlLXJlYWRtZS1iYWRnZS5oZXJva3VhcHAuY29tIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQifV0=)
 
+## Contributors
+
+- [@yashvi2001](https://github.com/yashvi2001)
+- [@vinitshahdeo](https://github.com/vinitshahdeo/)
