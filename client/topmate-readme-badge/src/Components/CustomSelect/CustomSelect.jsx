@@ -25,6 +25,7 @@ const customStyles = {
     ...provided,
     backgroundColor: state.isSelected ? '#E64130' : '#FDF2E6',
     color: state.isSelected ? '#FDF2E6' : '',
+    fontFamily: 'Gilroy',
     '&:hover': {
       ...provided,
       backgroundColor: state.isSelected ? '#E64130' : '#f6f8fa',
