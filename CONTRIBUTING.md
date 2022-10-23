@@ -30,19 +30,19 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 ### `STEP 2` :  Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_username>/Git-CheatSheet.git
+git clone https://github.com/<your_username>/topmate-readme-badge.git
 ```
 
 ### `STEP 3` : Navigate to the project directory .
 
 ```
-cd Git-CheatSheet
+cd topmate-readme-badge
 ```
 
 ### `STEP 4` : Add a reference (remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/EshanTrivedi21/Git-CheatSheet.git
+git remote add upstream https://github.com/vinitshahdeo/topmate-readme-badge.git
 ```
 
 ## Any contributions you make will be under the MIT Software License
