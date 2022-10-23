@@ -33,6 +33,8 @@ Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your
 ```
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
+**Try it out here**: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/)
+
 ## Style your badge 💅
 
 Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ⤵
