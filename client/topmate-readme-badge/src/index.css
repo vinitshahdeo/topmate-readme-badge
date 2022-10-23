@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@400;500&family=Rubik&display=swap');
 
+@font-face {
+  font-family: 'Gilroy';
+  src:  url('./fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src:  url('./fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
