@@ -24,6 +24,9 @@
    <a href="https://github.dev/vinitshahdeo/topmate-readme-badge/">
     <img src="https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label"/>
    </a>
+   <a href="https://github.com/vinitshahdeo">
+    <img src="https://img.shields.io/github/followers/vinitshahdeo?label=Follow%20%40vinitshahdeo&logo=github&style=social"/>
+   </a>
    <a href="https://github.com/vinitshahdeo/peerlist-readme-badge/fork">
     <img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?logo=javascript"/>
    </a>
