@@ -18,6 +18,12 @@
    <a href="https://vinitshahdeo.dev/">
     <img src="https://img.shields.io/badge/Check%20my%20blog%20on%20Hashnode-2962FF?logo=hashnode&logoColor=white"/>
    </a>
+   <a href="https://topmate-readme-badge.netlify.app/">
+    <img src="https://img.shields.io/website?logo=react&logoColor=white&up_message=up%20%7C%20visit%20now&url=https%3A%2F%2Ftopmate-readme-badge.netlify.app%2F"/>
+   </a>
+   <a href="https://app.netlify.com/sites/topmate-readme-badge/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status"/>
+   </a>
    <br />
    <br />
 </div>
