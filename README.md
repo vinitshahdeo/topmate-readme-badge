@@ -9,17 +9,8 @@
 
 <div align='center'>
    <img src="https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white"/>
-   <a href="https://twitter.com/Vinit_Shahdeo">
-    <img src="https://img.shields.io/twitter/follow/vinit_shahdeo?style=social"/>
-   </a>
    <a href="https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c">
     <img src="http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman"/>
-   </a>
-   <a href="https://github.com/vinitshahdeo/topmate-readme-badge/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/vinitshahdeo/topmate-readme-badge?logo=github"/>
-   </a>
-   <a href="https://vinitshahdeo.dev/">
-    <img src="https://img.shields.io/badge/Check%20my%20blog%20on%20Hashnode-2962FF?logo=hashnode&logoColor=white"/>
    </a>
    <a href="https://topmate-readme-badge.netlify.app/">
     <img src="https://img.shields.io/website?logo=react&logoColor=white&up_message=up%20%7C%20visit%20now&url=https%3A%2F%2Ftopmate-readme-badge.netlify.app%2F"/>
@@ -27,11 +18,20 @@
    <a href="https://app.netlify.com/sites/topmate-readme-badge/deploys">
     <img src="https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status"/>
    </a>
+   <a href="https://github.com/vinitshahdeo/topmate-readme-badge/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/vinitshahdeo/topmate-readme-badge?logo=github"/>
+   </a>
    <a href="https://github.dev/vinitshahdeo/topmate-readme-badge/">
     <img src="https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label"/>
    </a>
    <a href="https://github.com/vinitshahdeo/peerlist-readme-badge/fork">
     <img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?logo=javascript"/>
+   </a>
+   <a href="https://vinitshahdeo.dev/">
+    <img src="https://img.shields.io/badge/Check%20my%20blog%20on%20Hashnode-2962FF?logo=hashnode&logoColor=white"/>
+   </a>
+   <a href="https://twitter.com/Vinit_Shahdeo">
+    <img src="https://img.shields.io/twitter/follow/vinit_shahdeo?style=social"/>
    </a>
    <br />
    <br />
