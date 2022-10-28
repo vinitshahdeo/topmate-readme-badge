@@ -135,17 +135,17 @@ Here's `markdown` badge generator for any Peerlist profile 💚
 
 [![peerlist-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
-## Acknowledgement
-
-- My gratitude to [Yashvi](https://github.com/yashvi2001) for helping me in building [React app](https://topmate-readme-badge.netlify.app/). Thanks for the [contributions](https://github.com/vinitshahdeo/topmate-readme-badge/pulls?q=is%3Apr+is%3Aclosed+author%3Ayashvi2001).
-
-- Special thanks to [Tejasvi](https://github.com/TejasviArora) for designing the [Figma mocks](https://www.figma.com/file/DGSis1DiZrULEiWydKtpJb/Peerlist?node-id=89%3A6).
-
 ## Sponsor
 
 The service stops running once 550 free dyno hours on Heroku are exhausted. **[Consider sponsoring](https://github.com/sponsors/vinitshahdeo/) :dollar: me in order to keep this running by upgrading to [Hobby dynos](https://www.heroku.com/pricing) for $7 per dyno per month**. The service will never sleep and you will get 24/7 access to the awesome Topmate.io badges.
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/vinitshahdeo?label=sponsor%20%40vinitshahdeo&logo=github)](https://github.com/sponsors/vinitshahdeo/)
+
+## Acknowledgement
+
+- My gratitude to [Yashvi](https://github.com/yashvi2001) for helping me in building [React app](https://topmate-readme-badge.netlify.app/). Thanks for the [contributions](https://github.com/vinitshahdeo/topmate-readme-badge/pulls?q=is%3Apr+is%3Aclosed+author%3Ayashvi2001).
+
+- Special thanks to [Tejasvi](https://github.com/TejasviArora) for designing the [Figma mocks](https://www.figma.com/file/DGSis1DiZrULEiWydKtpJb/Peerlist?node-id=89%3A6).
 
 ## Support
 
