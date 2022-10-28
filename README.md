@@ -51,7 +51,7 @@ Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your
 ```
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
-➥ **Try it out here**: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/)
+➥ **Try it out here**: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/) *<sup>(Best viewed in Desktop)</sup>*
 
 ## Style your badge 💅
 
