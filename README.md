@@ -141,6 +141,12 @@ Here's `markdown` badge generator for any Peerlist profile 💚
 
 - Special thanks to [Tejasvi](https://github.com/TejasviArora) for designing the [Figma mocks](https://www.figma.com/file/DGSis1DiZrULEiWydKtpJb/Peerlist?node-id=89%3A6).
 
+## Sponsor
+
+The service stops running once 550 free dyno hours on Heroku are exhausted. **[Consider sponsoring](https://github.com/sponsors/vinitshahdeo/) :dollar: me in order to keep this running by upgrading to [Hobby dynos](https://www.heroku.com/pricing) for $7 per dyno per month**. The service will never sleep and you will get 24/7 access to the awesome Topmate.io badges.
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/vinitshahdeo?label=sponsor%20%40vinitshahdeo&logo=github)](https://github.com/sponsors/vinitshahdeo/)
+
 ## Support
 
 Glad to see you here! Let me briefly tell you what has motivated me to build this ⤵
