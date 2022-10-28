@@ -139,7 +139,7 @@ Here's `markdown` badge generator for any Peerlist profile 💚
 
 The service stops running once 550 free dyno hours on Heroku are exhausted. **[Consider sponsoring](https://github.com/sponsors/vinitshahdeo/) :dollar: me in order to keep this running by upgrading to [Hobby dynos](https://www.heroku.com/pricing) for $7 per dyno per month**. The service will never sleep and you will get 24/7 access to the awesome Topmate.io badges.
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/vinitshahdeo?label=sponsor%20%40vinitshahdeo&logo=github)](https://github.com/sponsors/vinitshahdeo/)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/vinitshahdeo?label=Sponsor%20%40vinitshahdeo&logo=github)](https://github.com/sponsors/vinitshahdeo/)
 
 ## Acknowledgement
 
