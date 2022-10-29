@@ -49,6 +49,8 @@ This is deployed using Netlify. Try it out here: [topmate-readme-badge.netlify.a
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0e91f197-4f59-438f-9eae-54ee4beb6ffe/deploy-status)](https://app.netlify.com/sites/topmate-readme-badge/deploys)
 
+> **Note**: Use Render URL in case Heroku app gets down when free dynos hours quota is exhausted for given month.
+
 ## API Documentation
 
 Check out to `main` branch and you will find everything on `README.md`. Alternatively, you can check the [Postman Collection](https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c) or [docs](https://vinitshahdeo.github.io/topmate-readme-badge/) to learn more.

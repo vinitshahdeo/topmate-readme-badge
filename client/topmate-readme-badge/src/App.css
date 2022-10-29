@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .MainContainer__Title{
@@ -37,7 +39,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .HeaderContainerComponent{
@@ -58,7 +59,7 @@
  display: flex;
  flex-direction: row;
  margin-bottom: 50px;
- margin-top: 50px;
+ margin-top: 90px;
  align-items: center;
 }
 .button_postman {
@@ -67,12 +68,14 @@
   padding: 8px;
   color: #FDF2E6;
   margin-right: 10px;
+  font-weight: bold;
 }
 .button_twitter{
   background-color:  #1DA1F2;
   border-radius: 5px;
   padding: 8px;
   color: #FDF2E6;
+  font-weight: bold;
 }
 .Move_Another{
   font-size: 12px;
@@ -85,7 +88,7 @@
 }
 .MainContainer__SubTitle{
   color: #a1a5a8;
-  font-family: 'Gilroy-Regular', cursive;
+  font-family: 'Gilroy', sans-serif;
   font-weight: bold;
   font-size: 16px;
   margin-top: 2px;
@@ -142,13 +145,20 @@
   .MainContainer__SubTitle{
     justify-content: center;
     margin: 5px;
+    font-size: 14px;
   }
-  .head{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .MainContainer__Title {
+    font-size: 1.3rem;
+  }
+  .button_Container {
+    margin-top: 60px;
+  }
+  .head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container{
     text-align: center;
@@ -171,6 +181,6 @@
   }
   .HeaderContainerComponent{
     text-align: center;
-   align-items: center;
+    align-items: center;
   }
 }

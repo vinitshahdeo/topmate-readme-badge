@@ -68,7 +68,7 @@ function App() {
     <>
       <div className="container">
         <div className="head">
-          <img className="img_badge" src="/topmate_light.png" alt="alternate" />
+          <img className="img_badge" src="/awesome.svg" alt="alternate" />
 
           <div className="HeaderContainerComponent">
             <div style={{ marginTop: '5px', marginRight: '5px' }}>
@@ -114,22 +114,22 @@ function App() {
             </h1>
             <h1 className="MainContainer__SubTitle">
               Style your GitHub Profile README with an awesome{' '}
-              <div style={{ marginRight: '5px', marginLeft: '5px' }}>
+              {/* <div style={{ marginRight: '5px', marginLeft: '5px' }}>
                 <a
                   href="https://topmate.io/vinitshahdeo"
                   target={'_blank'}
                   rel="noreferrer"
                 >
                   <img
-                    src={baseUrl}
+                    src='vinitshahdeo.svg'
                     alt="Topmate Badge"
                   />
                 </a>
-              </div>{' '}
+              </div>{' '} */}
               badge
             </h1>
             <div className="FormContainer">
-              <form onSubmit={onSubmit}>
+              <form onSubmit={onSubmit} autoComplete="off">
                 <Input
                   label="Enter Topmate username"
                   value={formState.nameValue}
@@ -164,12 +164,12 @@ function App() {
                     target={'_blank'}
                     rel="noreferrer"
                   >
-                    Click here to get your{' '}
-                    <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
+                    Get yourself a{' '}
+                    <span style={{ color: '#00aa45'}}>Peerlist</span> Badge
                     <div
                       style={{
                         float: 'right',
-                        marginTop: '1.5px',
+                        marginTop: '0.5px',
                         marginLeft: '2px'
                       }}
                     >
