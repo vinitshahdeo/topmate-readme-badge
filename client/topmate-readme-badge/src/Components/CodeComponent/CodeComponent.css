@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     border-style: dashed;
+    border-radius: 3px;
     border-color: #a1a5a8;
 }
 

@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .MainContainer__Title{
@@ -37,7 +39,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .HeaderContainerComponent{
@@ -58,7 +59,7 @@
  display: flex;
  flex-direction: row;
  margin-bottom: 50px;
- margin-top: 50px;
+ margin-top: 90px;
  align-items: center;
 }
 .button_postman {
@@ -148,6 +149,9 @@
   }
   .MainContainer__Title {
     font-size: 1.3rem;
+  }
+  .button_Container {
+    margin-top: 50px;
   }
   .head {
     text-align: center;

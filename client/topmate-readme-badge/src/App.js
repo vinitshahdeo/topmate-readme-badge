@@ -165,11 +165,11 @@ function App() {
                     rel="noreferrer"
                   >
                     Get yourself a{' '}
-                    <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
+                    <span style={{ color: '#00aa45'}}>Peerlist</span> Badge
                     <div
                       style={{
                         float: 'right',
-                        marginTop: '1.5px',
+                        marginTop: '0.5px',
                         marginLeft: '2px'
                       }}
                     >
