@@ -67,12 +67,14 @@
   padding: 8px;
   color: #FDF2E6;
   margin-right: 10px;
+  font-weight: bold;
 }
 .button_twitter{
   background-color:  #1DA1F2;
   border-radius: 5px;
   padding: 8px;
   color: #FDF2E6;
+  font-weight: bold;
 }
 .Move_Another{
   font-size: 12px;
@@ -85,7 +87,7 @@
 }
 .MainContainer__SubTitle{
   color: #a1a5a8;
-  font-family: 'Gilroy', cursive;
+  font-family: 'Gilroy', sans-serif;
   font-weight: bold;
   font-size: 16px;
   margin-top: 2px;
@@ -147,12 +149,12 @@
   .MainContainer__Title {
     font-size: 1.3rem;
   }
-  .head{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container{
     text-align: center;
@@ -175,6 +177,6 @@
   }
   .HeaderContainerComponent{
     text-align: center;
-   align-items: center;
+    align-items: center;
   }
 }
