@@ -142,6 +142,10 @@
   .MainContainer__SubTitle{
     justify-content: center;
     margin: 5px;
+    font-size: 14px;
+  }
+  .MainContainer__Title {
+    font-size: 1.3rem;
   }
   .head{
   text-align: center;

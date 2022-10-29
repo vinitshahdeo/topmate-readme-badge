@@ -68,7 +68,7 @@ function App() {
     <>
       <div className="container">
         <div className="head">
-          <img className="img_badge" src="/topmate_light.png" alt="alternate" />
+          <img className="img_badge" src="/awesome.svg" alt="alternate" />
 
           <div className="HeaderContainerComponent">
             <div style={{ marginTop: '5px', marginRight: '5px' }}>
@@ -114,18 +114,18 @@ function App() {
             </h1>
             <h1 className="MainContainer__SubTitle">
               Style your GitHub Profile README with an awesome{' '}
-              <div style={{ marginRight: '5px', marginLeft: '5px' }}>
+              {/* <div style={{ marginRight: '5px', marginLeft: '5px' }}>
                 <a
                   href="https://topmate.io/vinitshahdeo"
                   target={'_blank'}
                   rel="noreferrer"
                 >
                   <img
-                    src={baseUrl}
+                    src='vinitshahdeo.svg'
                     alt="Topmate Badge"
                   />
                 </a>
-              </div>{' '}
+              </div>{' '} */}
               badge
             </h1>
             <div className="FormContainer">
