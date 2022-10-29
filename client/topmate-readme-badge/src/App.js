@@ -23,12 +23,18 @@ const initialFormState = {
   topmateUsername: ''
 };
 
+/**
+ * Use Render when Heroku is down
+ */
+const baseUrl = process.env.REACT_APP_RENDER_URL;
+// const baseUrl = process.env.REACT_APP_HEROKU_URL;
+
 function App() {
   const [formState, setFormState] = useState(initialFormState);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const [badgeUrl, setBadgeUrl] = useState(
-    `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`
+    `${baseUrl}/${formState.nameValue}?style=${formState.selectValue}`
   );
 
   const [linkProfile, setLinkProfile] = useState(
@@ -39,7 +45,7 @@ function App() {
     e.preventDefault();
     setBadgeUrl(
       (prev) =>
-        (prev = `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${formState.selectValue}`)
+        (prev = `${baseUrl}/${formState.nameValue}?style=${formState.selectValue}`)
     );
 
     setLinkProfile(
@@ -52,7 +58,7 @@ function App() {
   const onSelectValueChange = ({ value }) => {
     if (isSubmitted) {
       setBadgeUrl(
-        `https://topmate-readme-badge.herokuapp.com/${formState.nameValue}?style=${value}`
+        `${baseUrl}/${formState.nameValue}?style=${value}`
       );
     }
     setFormState((prev) => ({ ...prev, selectValue: value }));
@@ -115,7 +121,7 @@ function App() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat"
+                    src={baseUrl}
                     alt="Topmate Badge"
                   />
                 </a>
