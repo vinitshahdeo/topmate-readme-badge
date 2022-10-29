@@ -18,7 +18,8 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "eslint": "^8.25.0"

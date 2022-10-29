@@ -1,8 +1,10 @@
 import '../CodeComponent/CodeComponent.css';
 import { AiFillCopy, AiOutlineCheck } from 'react-icons/ai';
 import { useState } from 'react';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { isblEditorLight } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-const CodeComponent = ({ label, url }) => {
+const CodeComponent = ({ label, url, language }) => {
   const [isCopied, setisCopied] = useState(false);
 
   async function copyTextToClipboard(text) {
@@ -23,11 +25,12 @@ const CodeComponent = ({ label, url }) => {
     <div className="CodeComponentContainer">
       <h3>{label}</h3>
       <div className="CodeBlock">
-        <pre>
           <div className="CodeBlock__Wrapper">
-            <code>
-              <div>{url}</div>
-            </code>
+            <div>
+              <SyntaxHighlighter language={language} wrapLongLines style={isblEditorLight}>
+                {url}
+              </SyntaxHighlighter>
+            </div>
             <div className="CodeBlock__ButtonWrapper">
               {isCopied ? (
                 <AiOutlineCheck size={20} className="CodeBlock__Button" />
@@ -40,7 +43,6 @@ const CodeComponent = ({ label, url }) => {
               )}
             </div>
           </div>
-        </pre>
       </div>
     </div>
   );
