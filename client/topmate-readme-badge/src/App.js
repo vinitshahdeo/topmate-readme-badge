@@ -164,7 +164,7 @@ function App() {
                     target={'_blank'}
                     rel="noreferrer"
                   >
-                    Click here to get your{' '}
+                    Get yourself a{' '}
                     <span style={{ color: '#00aa45' }}>Peerlist</span> Badge
                     <div
                       style={{
