@@ -129,7 +129,7 @@ function App() {
               badge
             </h1>
             <div className="FormContainer">
-              <form onSubmit={onSubmit}>
+              <form onSubmit={onSubmit} autoComplete="off">
                 <Input
                   label="Enter Topmate username"
                   value={formState.nameValue}
