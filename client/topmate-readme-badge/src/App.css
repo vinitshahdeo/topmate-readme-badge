@@ -184,3 +184,9 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 400px){
+  .HeaderContainerComponent {
+      flex-direction: column;
+  }
+}
