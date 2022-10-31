@@ -77,6 +77,11 @@
   color: #FDF2E6;
   font-weight: bold;
 }
+.button_postman, .button_twitter{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 .Move_Another{
   font-size: 12px;
   margin-top: 5%;
