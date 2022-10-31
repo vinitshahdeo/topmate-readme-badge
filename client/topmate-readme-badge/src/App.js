@@ -185,45 +185,27 @@ function App() {
             <div className="button_Container">
               <div>
                 <button className="button_postman">
+                  <SiPostman />
                   <a
                     href="https://www.postman.com/restless-rocket-22186/workspace/topmate-readme-badges-api/documentation/6178851-c863d626-b2e3-49bf-82d0-4e4cb46a089c"
                     target={'_blank'}
                     rel="noreferrer"
                   >
-                    {' '}
-                    View on Postman{' '}
+                    View on Postman
                   </a>
-                  <div
-                    style={{
-                      float: 'left',
-                      marginTop: '1.5px',
-                      marginRight: '4px'
-                    }}
-                  >
-                    <SiPostman />
-                  </div>
                 </button>
               </div>
 
               <div>
                 <button className="button_twitter">
+                  <ImTwitter />
                   <a
                     href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Ftopmate-readme-badge&via=Vinit_Shahdeo&text=Style%20your%20GitHub%20Profile%20README%20with%20an%20awesome%20Topmate%20badge&hashtags=topmate%2Creadme%2Cbadge"
                     target={'_blank'}
                     rel="noreferrer"
                   >
-                    {' '}
-                    Share on Twitter{' '}
+                    Share on Twitter
                   </a>
-                  <div
-                    style={{
-                      float: 'left',
-                      marginTop: '1.5px',
-                      marginRight: '4px'
-                    }}
-                  >
-                    <ImTwitter />
-                  </div>
                 </button>
               </div>
             </div>
