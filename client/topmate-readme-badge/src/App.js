@@ -169,7 +169,7 @@ function App() {
                     <div
                       style={{
                         float: 'right',
-                        marginTop: '0.5px',
+                        marginTop: '0.1px',
                         marginLeft: '2px'
                       }}
                     >
