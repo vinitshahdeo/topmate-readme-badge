@@ -149,6 +149,12 @@ The service stops running once 550 free dyno hours on Heroku are exhausted. **[C
 
 - Special thanks to [Tejasvi](https://github.com/TejasviArora) for designing the [Figma mocks](https://www.figma.com/file/DGSis1DiZrULEiWydKtpJb/Peerlist?node-id=89%3A6).
 
+## Are you a student?
+
+With the placement season around the corner and the internship season already started in many colleges, I would like to make myself available to help students in their prep. Since I have been through this phase, I know that this period can be extremely challenging, not to mention mentally exhausting. So I am opening my slots on [topmate.io](https://topmate.io/vinitshahdeo) to help and guide in whatever ways I can. **Find me here: [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo)**
+
+<img src="./public/images/vinitshahdeo-topmate.png" />
+
 ## Support
 
 Glad to see you here! Let me briefly tell you what has motivated me to build this ⤵
