@@ -154,7 +154,7 @@ The service stops running once 550 free dyno hours on Heroku are exhausted. **[C
 With the placement season around the corner and the internship season already started in many colleges, I would like to make myself available to help students in their prep. Since I have been through this phase, I know that this period can be extremely challenging, not to mention mentally exhausting. So I am opening my slots on [topmate.io](https://topmate.io/vinitshahdeo) to help and guide in whatever ways I can. **Find me here: [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo)**
 
 <a href="https://topmate.io/vinitshahdeo">
-   <img src="./public/images/vinitshahdeo-topmate-1-1.png" width="25%" height="25%"/>
+   <img src="./public/images/vinitshahdeo-topmate-1-1.png" width="40%" height="40%"/>
 </a>
 
 ## Support
