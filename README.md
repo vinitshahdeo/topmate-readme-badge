@@ -5,7 +5,7 @@
    </a>
 </h1>
 
-![](./public/images/topmate-banner.png)
+![](./public/images/topmate-readme-badge-generator.png)
 
 <div align='center'>
    <img src="https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white"/>
