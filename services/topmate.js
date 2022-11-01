@@ -36,7 +36,7 @@ module.exports = {
    */
   generateBadge: (username = DEFAULT_USERNAME, style = DEFAULT_STYLE) => {
     const profileUrl = getProfileUrl(username),
-      sanitizedUsername = username.replace(/[^a-zA-Z0-9 ]/g, ''),
+      sanitizedUsername = username.replace(/[^a-zA-Z0-9 ]/g, ''), // remove special chars otherwise shields will throw an error
       qs = `link=${profileUrl}&logo=${logo}&colorA=${COLOR_A}&colorB=${COLOR_B}&style=${style}`,
       badgeURL = `${BASE_URL}-${sanitizedUsername}-critical?${qs}`;
 
