@@ -159,6 +159,7 @@
     margin-top: 60px;
   }
   .head {
+    margin-top: 4%;
     text-align: center;
     display: flex;
     flex-direction: column;
