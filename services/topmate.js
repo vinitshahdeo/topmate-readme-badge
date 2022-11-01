@@ -36,8 +36,9 @@ module.exports = {
    */
   generateBadge: (username = DEFAULT_USERNAME, style = DEFAULT_STYLE) => {
     const profileUrl = getProfileUrl(username),
+      sanitizedUsername = username.replace(/[^a-zA-Z0-9 ]/g, ''),
       qs = `link=${profileUrl}&logo=${logo}&colorA=${COLOR_A}&colorB=${COLOR_B}&style=${style}`,
-      badgeURL = `${BASE_URL}-${username}-critical?${qs}`;
+      badgeURL = `${BASE_URL}-${sanitizedUsername}-critical?${qs}`;
 
     return downloadBadge(badgeURL);
   },

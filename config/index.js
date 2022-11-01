@@ -1,5 +1,6 @@
 module.exports.DEFAULT_USERNAME = 'vinitshahdeo';
 module.exports.DEFAULT_PROFILE_URL = 'https://topmate.io/vinitshahdeo';
+module.exports.TOPMATE_BASE_URL = 'https://topmate.io'
 
 // Learn more about these options @ https://shields.io/
 module.exports.BADGE_OPTIONS = {
