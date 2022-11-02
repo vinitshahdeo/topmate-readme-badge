@@ -128,6 +128,8 @@ This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) pa
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/topmate-readme-badge?logo=digitalocean&logoColor=white)
 
+[![Forkers repo roster for @vinitshahdeo/topmate-readme-badge](https://reporoster.com/forks/vinitshahdeo/topmate-readme-badge)](https://github.com/vinitshahdeo/topmate-readme-badge/network/members)
+
 ## Similar projects
 
 Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.
