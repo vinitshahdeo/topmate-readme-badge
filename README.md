@@ -55,7 +55,7 @@ Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your
 
 ➥ **Try it out here**: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/) *<sup>(Best viewed in Desktop)</sup>*
 
-> <sup>**Warning**: In case, you're facing issues in accessing the badge using the above API which is deployed on Heroku. This happens once the monthly free dynos hours are exhausted. In such cases, consider using the service hosted on Render. Please replace the base URL from `https://topmate-readme-badge.herokuapp.com` to `https://topmate-readme-badge.onrender.com`.</sup>
+> <sup>**Note**: In case, you're facing issues in accessing the badge using the above API which is deployed on Heroku. This happens once the monthly free dynos hours are exhausted. In such cases, consider using the service hosted on Render. Please replace the base URL from `https://topmate-readme-badge.herokuapp.com` to `https://topmate-readme-badge.onrender.com`.</sup>
 
 ## Style your badge 💅
 
