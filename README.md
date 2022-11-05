@@ -147,6 +147,10 @@ The service stops running once 550 free dyno hours on Heroku are exhausted. **[C
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/vinitshahdeo?label=Sponsor%20%40vinitshahdeo&logo=github)](https://github.com/sponsors/vinitshahdeo/)
 
+## Author
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=vinitshahdeo&data=followers,repositories,stars,commits)](https://github.com/vinitshahdeo)
+
 ## Acknowledgement
 
 - My gratitude to [Yashvi](https://github.com/yashvi2001) for helping me in building [React app](https://topmate-readme-badge.netlify.app/). Thanks for the [contributions](https://github.com/vinitshahdeo/topmate-readme-badge/pulls?q=is%3Apr+is%3Aclosed+author%3Ayashvi2001).
