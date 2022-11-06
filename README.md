@@ -139,7 +139,7 @@ Peerlist is a community of working professionals focused on building a personal 
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
-[![peerlist-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)
+[![peerlist-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge&theme=ayu-mirage)](https://github.com/vinitshahdeo/peerlist-readme-badge)
 
 ## Sponsor
 
