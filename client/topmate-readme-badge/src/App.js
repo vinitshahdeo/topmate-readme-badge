@@ -8,6 +8,8 @@ import { FiExternalLink } from 'react-icons/fi';
 import { SiPostman, SiMarkdown } from 'react-icons/si';
 import { ImTwitter } from 'react-icons/im';
 import Results from './Components/Results/Results';
+import {useWindowSize} from 'react-use';
+import Confetti from 'react-confetti'
 
 const options = [
   { value: 'flat', label: 'flat' },
@@ -63,6 +65,8 @@ function App() {
     }
     setFormState((prev) => ({ ...prev, selectValue: value }));
   };
+
+  const { width, height } = useWindowSize();
 
   return (
     <>
@@ -236,6 +240,14 @@ function App() {
                 </div>
               </a>
             </div>
+            {isSubmitted && <Confetti
+              width={width}
+              height={height}
+              opacity='1'
+              recycle={false}
+              gravity={0.1}
+              colors={['#E64130', '#2F363D']}
+            />}
           </main>
         </div>
       </div>
