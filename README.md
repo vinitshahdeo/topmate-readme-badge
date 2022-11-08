@@ -44,11 +44,12 @@
 
 Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ <a href="https://topmate.io/vinitshahdeo">topmate.io/vinitshahdeo</a>. Even better, you can now <strong>add a markdown badge</strong> in your GitHub profile <code>README</code> to connect with your community! If you haven't claimed your topmate link yet, visit <a href="https://topmate.io/">topmate.io</a> to join 1000+ creators, experts and mentors creating impact with their time.
 
-<br>
+<br />
 
-<a href="https://www.producthunt.com/posts/topmate-io-readme-badge-generator?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-topmate&#0045;io&#0045;readme&#0045;badge&#0045;generator" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=365190&theme=light" alt="Topmate&#0046;io&#0032;README&#0032;Badge&#0032;Generator - Get&#0032;a&#0032;markdown&#0032;badge&#0032;for&#0032;your&#0032;Topmate&#0046;io&#0032;profile | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> <a href="https://www.producthunt.com/posts/topmate-io-readme-badge-generator?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-topmate&#0045;io&#0045;readme&#0045;badge&#0045;generator" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=365190&theme=light&period=weekly&topic=Developer%20Tools" alt="Topmate" style="width: 250px; height: 54px;" width="250" height="54" /></a> <br>
+<a href="https://www.producthunt.com/posts/topmate-io-readme-badge-generator?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-topmate&#0045;io&#0045;readme&#0045;badge&#0045;generator" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=365190&theme=light" alt="Topmate&#0046;io&#0032;README&#0032;Badge&#0032;Generator - Get&#0032;a&#0032;markdown&#0032;badge&#0032;for&#0032;your&#0032;Topmate&#0046;io&#0032;profile | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> <a href="https://www.producthunt.com/posts/topmate-io-readme-badge-generator?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-topmate&#0045;io&#0045;readme&#0045;badge&#0045;generator" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=365190&theme=light&period=weekly&topic=Developer%20Tools" alt="Topmate" style="width: 250px; height: 54px;" width="250" height="54" /></a> <br />
    
    <strong>Try now: <a href="https://topmate-readme-badge.netlify.app/">topmate-readme-badge.netlify.app</a></strong>
+
    
 </div>
 
