@@ -144,7 +144,7 @@ This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) pa
 
 Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.
 
-[![Peerlist](https://peerlist.onrender.com/)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
+[![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
 
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
