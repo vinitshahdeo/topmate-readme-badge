@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "c863d626-b2e3-49bf-82d0-4e4cb46a089c",
 		"name": "Topmate README Badges API",
-		"description": "Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community! If you haven't claimed your topmate link yet, visit [topmate.io](https://topmate.io/) to join 1000+ creators, experts and mentors creating impact with their time.\n\n[![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n\n> **Here's the GitHub repository: [vinitshahdeo/topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge/)**\n\n### API\n\n\n- Base URL: https://topmate-readme-badge.herokuapp.com\n- Route param: `username` - Your Topmate username\n- Query param: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n```markdown\n[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n```",
+		"description": "Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community! If you haven't claimed your topmate link yet, visit [topmate.io](https://topmate.io/) to join 1000+ creators, experts and mentors creating impact with their time.\n\n[![](https://topmate-readme-badge.onrender.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n\n> **Here's the GitHub repository: [vinitshahdeo/topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge/)**\n\n### API\n\n\n- Base URL: https://topmate-readme-badge.herokuapp.com\n- Route param: `username` - Your Topmate username\n- Query param: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n```markdown\n[![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)\n```",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6186519"
 	},
@@ -28,7 +28,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=flat)"
 			},
 			"response": []
 		},
@@ -60,7 +60,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=flat)"
 			},
 			"response": []
 		},
@@ -92,7 +92,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=flat-square)"
 			},
 			"response": []
 		},
@@ -124,7 +124,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=plastic)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=plastic)"
 			},
 			"response": []
 		},
@@ -156,7 +156,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=social)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=social)"
 			},
 			"response": []
 		},
@@ -188,7 +188,7 @@
 						}
 					]
 				},
-				"description": "![](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)"
+				"description": "![](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=for-the-badge)"
 			},
 			"response": []
 		}

@@ -59,9 +59,9 @@ Topmate is a platform to connect 1:1 with your audience & monetise your time bet
 Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your Topmate link](https://topmate.io/) if you haven't yet!**
 
 ```markdown
-[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+[![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 ```
-[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+[![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
 ➥ **Try it out here**: [topmate-readme-badge.netlify.app](https://topmate-readme-badge.netlify.app/) *<sup>(Best viewed in Desktop)</sup>*
 
@@ -72,18 +72,18 @@ Replace `vinitshahdeo` in the markdown with your Topmate username. **[Claim your
 Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below ⤵
 
 ```markdown
-![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)
+![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=flat-square)
 ```
 
 ### Available styles
 
 | Type  | Badge  |
 |:---|:---|
-| `flat` <br> <sub>This is the default style.<sub>  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo) |
-| `flat-square`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=flat-square)  |
-| `plastic`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=plastic)  |
-| `social`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=social)  |
-| `for-the-badge`  | ![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo?style=for-the-badge)  |
+| `flat` <br> <sub>This is the default style.<sub>  | ![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo) |
+| `flat-square`  | ![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=flat-square)  |
+| `plastic`  | ![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=plastic)  |
+| `social`  | ![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=social)  |
+| `for-the-badge`  | ![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo?style=for-the-badge)  |
 
 ## Setup
 
@@ -144,7 +144,7 @@ This project is also open for the [Hacktoberfest](https://hacktoberfest.com/) pa
 
 Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.
 
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
+[![Peerlist](https://peerlist.onrender.com/)](https://peerlist.io/vinitshahdeo) [![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
 
 Here's `markdown` badge generator for any Peerlist profile 💚 
 ➥ [peerlist-readme-badge](https://github.com/vinitshahdeo/peerlist-readme-badge)
